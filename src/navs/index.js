@@ -583,6 +583,12 @@ export const handbookSidebar = [
                         name: 'YouTube',
                         url: '/handbook/content/youtube',
                     },
+                    {
+                        name: 'Screen recording guide',
+                        url: '/handbook/content/screen-recording-guide',
+                    },
+                    
+
                 ],
             },
             {
