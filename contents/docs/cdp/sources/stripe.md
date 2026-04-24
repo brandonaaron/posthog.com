@@ -49,13 +49,7 @@ If you prefer not to use OAuth, you can connect using a restricted API key inste
 | Connect       | Click **Read** in the **Connect** header                                                                                                                 |
 | Webhooks      | **Write** on Webhooks (so PostHog can create the real-time sync webhook for you – see [Setting up webhooks](#setting-up-webhooks-for-real-time-syncing)) |
 
-<<<<<<< HEAD
-If you aren't concerned with giving more permissions than necessary, you can also click **Read** on the **Core**, **Billing**, and **Connect** headers, plus **Write** on **Webhook endpoints**, to give the necessary permissions.
-||||||| ad76079e6
-If you aren't concerned with giving us more permissions than necessary, you can also simply click **Read** on the **Core**, **Billing**, and **Connect** headers, plus **Write** on **Webhook endpoints**, to give us the necessary permissions.
-=======
-If you aren't concerned with giving us more permissions than necessary, you can also simply click **Read** on the **Core**, **Billing**, and **Connect** headers, plus **Write** on **Webhooks**, to give us the necessary permissions.
->>>>>>> master
+If you aren't concerned with giving more permissions than necessary, you can also click **Read** on the **Core**, **Billing**, and **Connect** headers, plus **Write** on **Webhooks**, to give the necessary permissions.
 
 The **Webhooks** write permission is only required if you want PostHog to set up real-time syncing automatically. If you skip it, everything else still works – you'll just need to [create the webhook manually](#creating-the-webhook-manually-in-stripe) later if you decide to enable real-time syncing.
 
